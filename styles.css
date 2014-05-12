@@ -53,3 +53,24 @@ footer {
 	padding: 20px;
 	clear: both;
 }
+
+/* Detailed CSS Positioning TEST */
+.box-set {
+	background: #e8eae9;
+}
+.box {
+	position: relative;
+	background: #8ec63f;
+	height: 100px;
+	float: left;
+	margin: 10px;
+	width: 200px;
+	border-radius: 5px;
+}
+#vertical {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	display: table-cell;
+	vertical-align: middle;
+}
